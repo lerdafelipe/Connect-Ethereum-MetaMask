@@ -6,7 +6,7 @@ const Sidebar = () => {
   const {user, Login, Logout} = useAuth()
 
   return (
-    <aside className="flex flex-col border-r-[1px] border-solid border-slate-100">
+    <nav className="flex flex-col border-r-[1px] border-solid border-slate-100">
       <div className="p-4 flex flex-col gap-3 border-b-[1px] border-solid border-slate-100">
         
         <Redirecto Icon={OverviewIcon} text="Overview" />
@@ -46,7 +46,7 @@ const Sidebar = () => {
         </div>
       </div>
 
-    </aside>
+    </nav>
   )
 }
 

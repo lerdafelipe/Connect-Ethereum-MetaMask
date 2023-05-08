@@ -24,6 +24,6 @@ export const Dropdown = ({children, Icon, text}) => {
 
 export const DropdownItem = ({text, href}) => {
   return (
-    <li className='font-medium'><a className='w-full' href={href}>{text}</a></li>
+    <li className='font-medium'><a className='cursor-pointer w-full' href={href}>{text}</a></li>
   )
 }
